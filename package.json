@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "forever start app.js"
+    "init": "cp config.sample.js config.js",
+    "start": "forever start --uid \"proxy\" app.js"
   },
   "author": "yijun.liu",
   "license": "ISC",

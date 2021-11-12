@@ -4,6 +4,6 @@
 
 module.exports = {
   port: 30080,
-  serviceHosts: ["78.141.206.53"],
+  serviceHosts: ["1.2.3.4"],
   servicePorts: [56123]
 }
